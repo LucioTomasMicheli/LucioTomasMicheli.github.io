@@ -1,0 +1,251 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background: rgb(247, 232, 205);
+}
+header{
+    display: flex;
+    background-color: lightskyblue;
+    height: 30%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+#Titulo-Header{
+    display: flex;
+    justify-content: center;
+}
+#nombre-Header{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#division1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+#division2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#Introduccion{
+    height: 500px;
+    width: 40%;
+    padding: 5%;
+    overflow: scroll;
+    background-image: url("fondo.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: larger;
+}
+#imagen-hobbes-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-hobbes{
+    width: 35%;
+    height: 35%;
+
+}
+#imagen-Francia-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-Francia{
+    width: 80%;
+    height: 80%;
+}
+
+#Violencia-Politica{
+    height: 500px;
+    width: 40%;
+    overflow: scroll;
+    background-image: url("fondo\ represion.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #ffffff;
+    padding: 5%;
+    font-size: larger;
+}
+
+#imagen-semana-tragica-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-semana-tragica{
+    width: 80%;
+    height: 80%;
+}
+
+#imagen-patagonia-tragica-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-patagonia-tragica{
+    width: 80%;
+    height: 80%;
+}
+#Cordobazo-img-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;;
+}
+
+#Cordobazo-img{
+    width: 80%;
+    height: 80%;
+}
+#AbuelasPlazaDeMayo-img-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;;
+}
+
+#AbuelasPlazaDeMayo-img{
+    width: 80%;
+    height: 80%;
+}
+#ESMA-img-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#ESMA-img{
+    width: 80%;
+    height: 80%;
+}
+#Santiago-Maldonado-foto-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+
+}
+
+#Santiago-Maldonado-foto{
+    width: 80%;
+    height: 80%;
+}
+
+#La-defensa-de-la-educacion-publica{
+    height: 500px;
+    width: 40%;
+    overflow: scroll;
+    background-image: url("fondo-pizzarron.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: rgb(255, 255, 255);
+    padding: 5%;
+    font-size: larger;
+}
+
+#imagen-noche-de-los-bastones-largos-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-noche-de-los-bastones-largos{
+    width: 80%;
+    height: 80%;
+}
+
+#imagen-mafalda-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-mafalda{
+    width: 80%;
+    height: 80%;
+}
+
+#imagen-lapices-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-lapices{
+    width: 80%;
+    height: 80%;
+}
+
+#Marcha-Universitaria{
+    height: 500px;
+    width: 40%;
+    overflow: scroll;
+    background-image: url("fondo-politica\ .png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: white;
+    padding: 5%;
+    font-size: larger;
+}
+
+#video-abril{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+
+#imagen-yo-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#imagen-yo{
+    width: 80%;
+    height: 80%;
+}
+
+#Imagen-de-la-marcha-container{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+#Imagen-de-la-marcha{
+    width: 80%;
+    height: 80%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    background-color: lightskyblue;
+    padding: 2%;
+    gap: 20px;
+    flex-shrink: 1;
+}
+#Contactos{
+    display: flex;
+    order: 0;
+    width: max-content;
+    align-content: space-between;
+    align-self: flex-start;
+    margin: auto;
+    flex-shrink: 1;
+}
+#Fuentes{
+    display: flex;
+    flex-shrink: 1;
+    order: 1;
+    margin: auto;
+    flex-direction: column;
+    align-self:flex-end;
+    width: max-content;
+}
